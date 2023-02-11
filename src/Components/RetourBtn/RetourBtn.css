@@ -1,0 +1,14 @@
+.retourBtn {
+    
+    background-color: white;
+    color: #ef6c00;
+    border-radius: 25px ;
+    /* border-style: none; */
+    padding: 0.5rem;
+    
+}
+
+.leftArrow {
+    font-size: 2rem;
+    line-height: 8px;
+}

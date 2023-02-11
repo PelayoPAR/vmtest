@@ -4,7 +4,7 @@ function NonBtn2912mois() {
   return (
     <div>
       <img src="/Img/SurveillanceX.svg" alt="Non" />
-      <p>
+      <p style={{ color: "#ef6c00" }}>
         Non, <br />
         entre 9 et 12 mois
       </p>

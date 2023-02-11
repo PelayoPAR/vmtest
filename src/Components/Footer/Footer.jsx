@@ -4,7 +4,8 @@ function Footer() {
   return (
     <div>
       <p>
-        Recevez une <span>offre</span> personalisée et <span>gratuite</span>
+        Recevez une <span style={{ color: "#ef6c00" }}>offre</span> personalisée
+        et <span style={{ color: "#ef6c00" }}>gratuite</span>
       </p>
     </div>
   )

@@ -4,7 +4,7 @@ function NonBtn1() {
   return (
     <div>
       <img src="/Img/SurveillanceX.svg" alt="Non" />
-      <p>Non</p>
+      <p style={{ color: "#ef6c00" }}>Non</p>
     </div>
   )
 }

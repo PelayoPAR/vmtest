@@ -4,7 +4,7 @@ function NonBtn2moins9mois() {
   return (
     <div>
       <img src="/Img/SurveillanceX.svg" alt="Non" />
-      <p>
+      <p style={{ color: "#ef6c00" }}>
         Non, <br />
         moins de 9 mois
       </p>

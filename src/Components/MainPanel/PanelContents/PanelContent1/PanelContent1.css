@@ -1,0 +1,10 @@
+
+.panelContentMain {
+    display: flex;
+    flex-direction: column;
+}
+
+.ouiNonbuttons {
+    display: flex;
+    flex-direction: row;
+}
