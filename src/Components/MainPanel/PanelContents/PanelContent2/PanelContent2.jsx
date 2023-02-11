@@ -5,11 +5,13 @@ import OuiBtn2 from "./OuiBtn2"
 
 function PanelContent2() {
   return (
-    <div>
+    <div className="panelContentMain">
       <h4>Plus d'un an chez votre op'erateur ?</h4>
-      <OuiBtn2 />
-      <NonBtn2912mois />
-      <NonBtn2moins9mois />
+      <div className="ouiNonbuttons">
+        <OuiBtn2 />
+        <NonBtn2912mois />
+        <NonBtn2moins9mois />
+      </div>
     </div>
   )
 }
