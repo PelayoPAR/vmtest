@@ -6,8 +6,8 @@ import OuiBtn2 from "./OuiBtn2"
 function PanelContent2() {
   return (
     <div className="panelContentMain">
-      <h4>Plus d'un an chez votre op'erateur ?</h4>
-      <div className="ouiNonbuttons">
+      <h3>Plus d'un an chez votre opérateur ?</h3>
+      <div className="ouiNonButtonsDiv">
         <OuiBtn2 />
         <NonBtn2912mois />
         <NonBtn2moins9mois />

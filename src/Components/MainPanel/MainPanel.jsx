@@ -36,35 +36,37 @@ function MainPanel() {
       className="mainPanelMain"
       style={{ backgroundImage: "url('/Img/fiberbgimg.jpg')" }}
     >
-      <div>
-        <RetourBtn controlSetPanelMinus={controlSetPanelMinus} />
-      </div>
-      <div className="contentPanel">
-        <div className="progressBarMain">
-          {panel === 0 && (
-            <ProgressBar
-              bgcolor={"linear-gradient(#ef6c00, #febe10)"}
-              completed={completed}
-            />
-          )}
-          {panel === 1 && (
-            <ProgressBar
-              bgcolor={"linear-gradient(to right, #ef6c00, #febe10"}
-              completed={completed}
-            />
-          )}
-          {panel === 2 && (
-            <ProgressBar
-              bgcolor={"linear-gradient(to right, #ef6c00, #febe10"}
-              completed={completed}
-            />
-          )}
-        </div>
+      <div className="retourPlusContentDiv">
         <div>
-          {panel === 0 && <PanelContent1 />}
-          {panel === 1 && <PanelContent2 />}
-          {panel === 2 && <PanelContent3 />}
-          <SuivantButton controlSetPanelPlus={controlSetPanelPlus} />
+          <RetourBtn controlSetPanelMinus={controlSetPanelMinus} />
+        </div>
+        <div className="contentPanel">
+          <div className="progressBarMain">
+            {panel === 0 && (
+              <ProgressBar
+                bgcolor={"linear-gradient(#ef6c00, #febe10)"}
+                completed={completed}
+              />
+            )}
+            {panel === 1 && (
+              <ProgressBar
+                bgcolor={"linear-gradient(to right, #ef6c00, #febe10"}
+                completed={completed}
+              />
+            )}
+            {panel === 2 && (
+              <ProgressBar
+                bgcolor={"linear-gradient(to right, #ef6c00, #febe10"}
+                completed={completed}
+              />
+            )}
+          </div>
+          <div className="panelEtSuivantDiv">
+            {panel === 0 && <PanelContent1 />}
+            {panel === 1 && <PanelContent2 />}
+            {panel === 2 && <PanelContent3 />}
+            <SuivantButton controlSetPanelPlus={controlSetPanelPlus} />
+          </div>
         </div>
       </div>
     </div>

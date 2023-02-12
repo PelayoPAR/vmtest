@@ -1,13 +1,16 @@
 import React from "react"
+import "../PanelContent1/PanelContent1.css"
 
 function OuiBtn2() {
   return (
-    <div>
-      <img src="/Img/SurveillanceOK.svg" alt="Non" />
+    <div className="ouiNonButtonDiv">
+      <img src="/Img/SurveillanceOK.png" alt="Non" />
       <p style={{ color: "#ef6c00" }}>
-        Oui,
-        <br />
-        plus d'un an
+        <b>
+          Oui,
+          <br />
+          plus d'un an
+        </b>
       </p>
     </div>
   )

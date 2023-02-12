@@ -6,12 +6,15 @@ import "./PanelContent1.css"
 function PanelContent1() {
   return (
     <div className="panelContentMain">
-      <h4>Avez-vous la fibre optique ?</h4>
+      <h3>Avez-vous la fibre optique ?</h3>
       <p style={{ color: "#ef6c00" }}>
-        Cette information nous permet de mieux cerner votre besoin en termes
-        d'offre internet
+        <b>
+          Cette information nous permet de mieux cerner votre besoin en termes{" "}
+          <br />
+          d'offre internet.
+        </b>
       </p>
-      <div className="ouiNonbuttons">
+      <div className="ouiNonButtonsDiv">
         <OuiBtn1 />
         <NonBtn1 />
       </div>

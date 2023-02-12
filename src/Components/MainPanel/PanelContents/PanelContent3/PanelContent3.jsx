@@ -2,8 +2,8 @@ import React from "react"
 
 function PanelContent3() {
   return (
-    <div>
-      <h4>Merci! Questionnaire complété</h4>
+    <div className="panelContentMain">
+      <h3>Merci! Questionnaire complété</h3>
     </div>
   )
 }
