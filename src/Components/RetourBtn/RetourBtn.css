@@ -1,9 +1,11 @@
 .retourBtn {
-    
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
     background-color: white;
     color: #ef6c00;
     border-radius: 25px ;
-    /* border-style: none; */
+    border-style: none;
     padding: 0.5rem;
     
 }

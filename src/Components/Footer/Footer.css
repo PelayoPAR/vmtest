@@ -1,0 +1,11 @@
+.footerMain {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footerMain p{
+    padding-top: 4rem;
+}

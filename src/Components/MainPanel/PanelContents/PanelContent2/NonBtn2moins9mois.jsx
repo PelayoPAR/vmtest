@@ -1,12 +1,15 @@
 import React from "react"
+import "../PanelContent1/PanelContent1.css"
 
 function NonBtn2moins9mois() {
   return (
-    <div>
-      <img src="/Img/SurveillanceX.svg" alt="Non" />
+    <div className="ouiNonButtonDiv">
+      <img src="/Img/SurveillanceX.png" alt="Non" />
       <p style={{ color: "#ef6c00" }}>
-        Non, <br />
-        moins de 9 mois
+        <b>
+          Non, <br />
+          moins de 9 mois
+        </b>
       </p>
     </div>
   )

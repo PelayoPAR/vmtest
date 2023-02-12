@@ -1,8 +1,10 @@
 .suivantButton{
     background-color: rgb(6, 6, 73);
     color: white;
-    width: 90%;
+    width: 100%;
     border-style: none;
     padding: 0.4rem;
     font-size: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 5px;
 }

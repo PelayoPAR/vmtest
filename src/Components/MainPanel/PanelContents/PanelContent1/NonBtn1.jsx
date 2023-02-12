@@ -1,10 +1,13 @@
 import React from "react"
+import "../PanelContent1/PanelContent1.css"
 
 function NonBtn1() {
   return (
-    <div>
-      <img src="/Img/SurveillanceX.svg" alt="Non" />
-      <p style={{ color: "#ef6c00" }}>Non</p>
+    <div className="ouiNonButtonDiv">
+      <img src="/Img/SurveillanceX.png" alt="Non" />
+      <p style={{ color: "#ef6c00" }}>
+        <b>Non</b>
+      </p>
     </div>
   )
 }
