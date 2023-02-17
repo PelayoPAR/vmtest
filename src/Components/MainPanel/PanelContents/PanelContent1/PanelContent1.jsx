@@ -1,9 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import NonBtn1 from "./NonBtn1"
 import OuiBtn1 from "./OuiBtn1"
 import "./PanelContent1.css"
 
 function PanelContent1() {
+  const [clicked, setClicked] = useState(-1)
+
   return (
     <div className="panelContentMain">
       <h3>Avez-vous la fibre optique ?</h3>
@@ -15,8 +17,8 @@ function PanelContent1() {
         </b>
       </p>
       <div className="ouiNonButtonsDiv">
-        <OuiBtn1 />
-        <NonBtn1 />
+        <OuiBtn1 clicked={clicked} setClicked={setClicked} />
+        <NonBtn1 clicked={clicked} setClicked={setClicked} />
       </div>
     </div>
   )

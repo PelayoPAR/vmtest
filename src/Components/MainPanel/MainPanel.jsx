@@ -12,7 +12,6 @@ function MainPanel() {
   const [completed, setCompleted] = useState(0)
 
   function controlSetPanelPlus() {
-    // console.log(panel)
     if (panel <= 1) {
       setPanel(panel + 1)
       if (completed <= 50) {
@@ -22,7 +21,6 @@ function MainPanel() {
   }
 
   function controlSetPanelMinus() {
-    // console.log(panel)
     if (panel >= 1) {
       setPanel(panel - 1)
       if (completed >= 50) {
@@ -44,7 +42,7 @@ function MainPanel() {
           <div className="progressBarMain">
             {panel === 0 && (
               <ProgressBar
-                bgcolor={"linear-gradient(#ef6c00, #febe10)"}
+                bgcolor={"linear-gradient(to right, #ef6c00, #febe10)"}
                 completed={completed}
               />
             )}

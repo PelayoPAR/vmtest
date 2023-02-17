@@ -1,13 +1,31 @@
 import React from "react"
 import "../PanelContent1/PanelContent1.css"
 
-function OuiBtn1() {
+function OuiBtn1({ clicked, setClicked }) {
+  // const [clicked, setClicked] = useState(false)
+
   return (
-    <div className="ouiNonButtonDiv" style={{ borderStyle: "solid 1px black" }}>
+    <div
+      className="ouiNonButtonDiv"
+      // onClick={() => {
+      //   setClicked(!clicked)
+      // }}
+      onClick={() => {
+        setClicked(0)
+      }}
+    >
       <img src="/Img/SurveillanceOK.png" alt="Oui" />
-      <p style={{ color: "#ef6c00" }}>
-        <b>Oui</b>
-      </p>
+      {clicked === 0 && (
+        <p style={{ color: "#ef6c00" }}>
+          {" "}
+          <b>Oui</b>
+        </p>
+      )}
+      {clicked !== 0 && (
+        <p>
+          <b>Oui</b>
+        </p>
+      )}
     </div>
   )
 }

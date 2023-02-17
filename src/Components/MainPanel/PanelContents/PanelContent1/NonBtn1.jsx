@@ -1,13 +1,30 @@
 import React from "react"
 import "../PanelContent1/PanelContent1.css"
 
-function NonBtn1() {
+function NonBtn1({ clicked, setClicked }) {
+  // const [clicked, setClicked] = useState(false)
+
   return (
-    <div className="ouiNonButtonDiv">
+    <div
+      className="ouiNonButtonDiv"
+      // onClick={() => {
+      //   setClicked(!clicked)
+      // }}
+      onClick={() => {
+        setClicked(1)
+      }}
+    >
       <img src="/Img/SurveillanceX.png" alt="Non" />
-      <p style={{ color: "#ef6c00" }}>
-        <b>Non</b>
-      </p>
+      {clicked === 1 && (
+        <p style={{ color: "#ef6c00" }}>
+          <b>Non</b>
+        </p>
+      )}
+      {clicked !== 1 && (
+        <p>
+          <b>Non</b>
+        </p>
+      )}
     </div>
   )
 }
