@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     background-repeat: no-repeat;
-    /* background-color: rgb(177, 52, 52); */
     background-size: cover;
 }   
 
@@ -56,12 +55,6 @@
         align-self: center;
     }
 }
-
-
-/* @media screen and (max-width: 480px) {} */
-/* @media screen and (min-width:481px) and (max-width: 768px) {} */
-/* @media screen and (min-width:769px) and (max-width: 1023px) {} */
-/* @media screen and (min-width: 1024px) and (max-width: 1200px) {} */
 
 .progressBarMain{
     display: flex;

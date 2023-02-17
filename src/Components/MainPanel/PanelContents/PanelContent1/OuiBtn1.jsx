@@ -2,14 +2,9 @@ import React from "react"
 import "../PanelContent1/PanelContent1.css"
 
 function OuiBtn1({ clicked, setClicked }) {
-  // const [clicked, setClicked] = useState(false)
-
   return (
     <div
       className="ouiNonButtonDiv"
-      // onClick={() => {
-      //   setClicked(!clicked)
-      // }}
       onClick={() => {
         setClicked(0)
       }}

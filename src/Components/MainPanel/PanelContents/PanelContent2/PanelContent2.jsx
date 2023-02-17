@@ -5,7 +5,6 @@ import OuiBtn2 from "./OuiBtn2"
 
 function PanelContent2() {
   const [clicked, setClicked] = useState(-1)
-  // console.log("click is: ", clicked)
 
   return (
     <div className="panelContentMain">
