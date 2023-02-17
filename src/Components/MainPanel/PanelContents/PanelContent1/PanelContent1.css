@@ -49,3 +49,21 @@
 .ouiNonButtonDiv p {
     margin-top: 1rem;
 }
+
+@media screen and (max-width:486px) {
+    .ouiNonButtonDiv {
+        min-width: 10px;
+        width: 80%;
+    }
+
+    .ouiNonButtonsDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:485px) and (max-width: 768px) {
+    .ouiNonButtonDiv {
+        min-width: 10px;;
+    }
+}

@@ -5,7 +5,7 @@ import "./RetourBtn.css"
 
 function RetourBtn({ controlSetPanelMinus }) {
   return (
-    <div>
+    <div className="retourBtnDiv">
       <button
         className="retourBtn"
         onClick={() => {

@@ -31,3 +31,9 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #61dafb;
 }
 
+
+
+/* @media screen and (max-width: 480px) {} */
+/* @media screen and (min-width:481px) and (max-width: 768px) {} */
+/* @media screen and (min-width:769px) and (max-width: 1023px) {} */
+/* @media screen and (min-width: 1024px) and (max-width: 1200px) {} */

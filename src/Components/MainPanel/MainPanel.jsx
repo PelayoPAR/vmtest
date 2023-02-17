@@ -37,7 +37,7 @@ function MainPanel() {
       style={{ backgroundImage: "url('/Img/fiberbgimg.jpg')" }}
     >
       <div className="retourPlusContentDiv">
-        <div>
+        <div className="retourBtnParent">
           <RetourBtn controlSetPanelMinus={controlSetPanelMinus} />
         </div>
         <div className="contentPanel">
