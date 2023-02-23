@@ -2,6 +2,7 @@ import React from "react"
 import "../PanelContent1/PanelContent1.css"
 
 function NonBtn2moins9mois({ clicked, setClicked }) {
+  const btnStyle = { color: clicked === 2 ? "#ef6c00" : "inherit" }
   return (
     <div
       className="ouiNonButtonDiv"
@@ -10,22 +11,13 @@ function NonBtn2moins9mois({ clicked, setClicked }) {
       }}
     >
       <img src="/Img/SurveillanceX.png" alt="Non" />
-      {clicked !== 2 && (
-        <p>
-          <b>
-            Non, <br />
-            moins de 9 mois
-          </b>
-        </p>
-      )}
-      {clicked === 2 && (
-        <p style={{ color: "#ef6c00" }}>
-          <b>
-            Non, <br />
-            moins de 9 mois
-          </b>
-        </p>
-      )}
+
+      <p style={btnStyle}>
+        <b>
+          Non, <br />
+          moins de 9 mois
+        </b>
+      </p>
     </div>
   )
 }
